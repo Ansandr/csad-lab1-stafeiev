@@ -26,3 +26,9 @@ bash scripts/check.sh      # Linux/macOS або Git Bash у Windows
 Останній рядок — `CHECK RESULT: PASS (N checks)` або `CHECK RESULT: FAIL (...)`, код виходу 0/1.
 
 ## 3. Запуск проєкту
+
+Після складання запустіть застосунок:
+
+```bash
+java -jar dist/hello.jar
+```
